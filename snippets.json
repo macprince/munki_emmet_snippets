@@ -1,0 +1,12 @@
+{
+  "xml": {
+    "snippets": {
+      "category": "key{category}+string{${1:Category}}",
+      "catalogs": "key{catalogs}+array>string{${1:testing}}",
+      "arch": "key{supported_architectures}+array>string{${1:arm64}}",
+      "dev": "key{developer}+string{${1:Developer Inc.}}",
+      "unattend_i": "key{unattended_install}+true/",
+      "unattend_u": "key{unattended_uninstall}+true/"
+    }
+  }
+}
