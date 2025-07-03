@@ -6,7 +6,9 @@
       "arch": "key{supported_architectures}+array>string{${1:arm64}}",
       "dev": "key{developer}+string{${1:Developer Inc.}}",
       "unattend_i": "key{unattended_install}+true/",
-      "unattend_u": "key{unattended_uninstall}+true/"
+      "unattend_u": "key{unattended_uninstall}+true/",
+      "requires": "key{requires}+array>string{${1:requiredpkg}}",
+      "update_for": "key{update_for}+array>string{${1:updatepkg}}"
     }
   }
 }
