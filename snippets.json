@@ -10,7 +10,8 @@
       "unattend_u": "key{unattended_uninstall}+true/",
       "requires": "key{requires}+array>string{${1:requiredpkg}}",
       "update_for": "key{update_for}+array>string{${1:updatepkg}}",
-      "icon": "key{icon_name}+string{${1:icon.png}}"
+      "icon": "key{icon_name}+string{${1:icon.png}}",
+      "restart_action": "key{RestartAction}+string{${1:None}}"
     }
   }
 }
